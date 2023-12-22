@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Poppins:wght@300;400&display=swap');
+*{
+    padding: 0;margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin-top: 20px;
+
+    .card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+       
+        
+        .video{
+            width: 45vh;
+            height: 47vh;
+            background-color: cornflowerblue;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+        .instructions{
+            color: white;
+            width: 45vh;
+            height: 47vh;
+            background-color: white;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+
+            & h3{
+                color: rgb(122, 8, 228);
+                font-weight: bolder;
+                margin-top: 3rem;
+                margin-left: 1rem;
+                line-height: 1.6rem;
+                span{
+                    color: black;
+                }
+            }
+
+            & ul{
+                color: rgb(118, 115, 115);
+                font-size: 14px;
+                margin-left: 13px;
+                margin-top: 18px;
+                list-style: none;
+                line-height: 1.3rem;
+            }
+            & button{
+                background-color: rgb(122, 8, 228);
+                border: none;
+                color: white;
+                margin-left: 12px;
+                padding: 5px 12px 5px 12px;
+                border-radius: 3px;
+                margin-top: 10px;
+                cursor: pointer;
+            }
+            & img{
+                outline: none;
+                width: 17px;
+                font-weight: bolder;
+                padding-top: 1px;
+                margin-left: 19px;
+            }
+            .btn{
+                display: flex;
+                align-items: center;
+                img{
+                    margin-top: 8px;
+                    margin-left: 30px;
+                }
+                span{
+                    margin-top: 11px;
+                    margin-left: 3px;
+                }
+            }
+            & span{
+                color: black;
+                font-size: 10px;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
